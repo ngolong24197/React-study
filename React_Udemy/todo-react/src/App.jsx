@@ -8,6 +8,7 @@ import GoingOut from './components/PropAndState/State/GoingOut';
 import AddToSArray from './components/WorkWithArray/AddToSArray';
 import EmailInteraction from './components/FormInteraction/EmailInteraction';
 import Test from './components/Test/Test';
+import FatherComponent from './components/PassingState/FatherComponent';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/parent" element={<ProAndStateParent/>} />
         <Route path="/email" element={<EmailInteraction/>}/>
         <Route path="/test" element = {<Test/>}/>
+        <Route path='/hello' element = {<FatherComponent/>}/>
       </Routes>
     </Router>
   );

@@ -11,6 +11,7 @@ const Navbar = () => {
         <li><Link to="/parent" className="navbar-link">Display State Parent</Link></li>
         <li><Link to="/email" className="navbar-link">Email</Link></li>
         <li><Link to="/test" className='navbar-link'>Test</Link></li>
+        <li><Link to="/hello" className='navbar-link'>Name Input</Link></li>
       </ul>
     </nav>
   );
